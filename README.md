@@ -9,7 +9,7 @@ I have been tasked to create an application that an employee can use to generate
 
 ## Installation 
 Simply click the link below to access the page!
-
+https://sinkovac.github.io/Password-Generator/
 
 ## Usage
 <instructions>
