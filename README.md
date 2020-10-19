@@ -1,6 +1,9 @@
 # Password-Generator
 I have been tasked to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code.
 
+# User Story
+As an employee with access to sensitive data, I want to randomly generate a password that meets certain criteria so that I can create a strong password that provides greater security
+
 # Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
