@@ -21,6 +21,27 @@ function generatePassword() {
         }
 }
 
+ // option to include lowercase characters     
+   var lowercaseCharsSet = prompt("Include lowercase characters?");
+        if(lowercaseCharsSet) {
+            passwordChars += lowcaseChars;
+        }
+   // option to include uppercase characters 
+   var uppercaseCharsSet = prompt("Include uppercase characters?");
+        if(uppercaseCharsSet) {     
+            passwordChars += uppcaseChars;
+        }
+   // option to include numercial characters
+   var numCharsSet = prompt("Include numerical characters?");
+        if(numCharsSet) {
+            passwordChars += numChars;
+        }
+   // option to include special characters
+   var specialCharsSet = prompt("Include special characters?");
+        if(specialCharSet) {
+            passwordChars += specialCharsSet;
+        }
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
