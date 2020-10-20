@@ -42,13 +42,12 @@ function generatePassword() {
             passwordChars += specialCharsSet;
         }
 
-// Write password to the #password input
+// displays generated password        
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
-
+    var newPass = generatePassword();
+    var passwordText = document.querySelector("#password");
+    
+    passwordText.value = newPass;
 }
 
 // Add event listener to generate button
